@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Varela+Round&display=swap');
+
+* {
+    font-family: 'Roboto';
+}
+
+.header {
+    display: flex;
+    height: 56px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-color: #3F72E9;
+    column-gap: 10px;
+}
+
+.search {
+    width: 507px;
+    font-size: 12px;
+    height: 40px;
+}
+
+.cart {
+    display: block;
+    margin-left: 10px;
+
+}
+
+/* product description CSS */
+
+.main {
+    display: flex;
+    /* align-items: center; */
+    background-color: #F0F0F1;
+    height: 268px;
+}
+
+.img {
+    position: relative;
+    object-fit: contain;
+    height: 204px;
+    width: 220px;
+    top: 24px;
+    left: 32px;
+    border-width: 10px;
+    border: white;
+
+}
+
+.product-desciption {
+    margin-left: 100px;
+    position: relative;
+    top: 24px;
+
+
+
+}
+
+#product-description-heading {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+#product-desciption-p {
+    font-size: 14px;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+
+#product-desciption-bullet-items {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    padding-left: 25px;
+    line-height: 1.65;
+    
+
+
+
+
+    
+}
+
+/* price description */
+
+.pricedescription{
+position: relative;
+top: 24px;
+left: 416px;
+gap: 4px;
+
+/* object-fit: contain; */
+width: 175px;
+height: 100px;
+
+font-size: 12px;
+font-weight: 400;
+
+
+
+}
+
+#pricedescription-price{
+   font-size: 24px;
+   font-weight: 700;
+}
+
+
+
+
+
+
+
+/* footer */
+
+
+footer {
+    display: grid;
+    background-color: #1A2335;
+    color: white;
+    justify-content: center;
+    grid-template-columns: 6fr 6fr;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 40px 20px;
+}
+
+
+.left-part {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+
+.right-part {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+
+.spacing {
+    top: 40px;
+    left: 641px;
+    gap: 16px;
+
+}
+
+.border {
+    border-left: 1px solid #878787;
+    padding-left: 20px;
+}
+
+.footer-title {
+    color: #878787;
+    padding: 4px;
+    text-align: left;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.right-part p {
+    padding: 1px 4px;
+    margin: 0px;
+}
+
+.footer-title~div {
+    padding: 4px;
+}
